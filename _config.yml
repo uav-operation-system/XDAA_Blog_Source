@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://uav-operation-system.github.io
+url: https://xdu-aero-association.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -97,6 +97,5 @@ theme: next
 
 deploy:
   type: git
-  repo: git@github.com:uav-operation-system/uav-operation-system.github.io.git
-  # repo: https://github.com/uav-operation-system/uav-operation-system.github.io.git
+  repo: git@github.com:xdu-aero-association/xdu-aero-association.github.io.git
   branch: master
