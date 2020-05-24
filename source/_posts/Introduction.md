@@ -11,6 +11,7 @@ top: 5
 西电航协研发部，起源于学生们对飞行的梦想，承载着大学生对航空研发的追求。在各方的努力下，我们共建了西电航协研发部门。
 
 西电航协研发部GitHub组织地址：[XDAA](https://github.com/xdu-aero-association)
+<!-- more -->
 
 ## 教育无人机
 
