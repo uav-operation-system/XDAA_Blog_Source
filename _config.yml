@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Blog for R&D Department of XDU Aero Association
-subtitle: Designed by Phillweston
-description: This is a official blog for R&D department of XDU Aero Association
-keywords: XDU Aero Association
-author: Phillweston
-language: en
+title: 西电航协研发部门博客
+subtitle: 放飞理想，扬帆远航
+description: 这是一个西电航协研发部门官方的博客
+keywords: 西电航协
+author: XDU Aero Association
+language: zh-CN
 timezone: ''
 
 # URL
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -99,3 +99,27 @@ deploy:
   type: git
   repo: git@github.com:xdu-aero-association/xdu-aero-association.github.io.git
   branch: master
+
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-emoji  # add emoji
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    permalink: true
+    permalinkClass: header-anchor
+    permalinkSymbol: ¶

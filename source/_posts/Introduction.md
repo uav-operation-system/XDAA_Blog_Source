@@ -1,5 +1,8 @@
 ---
-title: R&D Department of XDU Aero Association
+title: Introduction
+date: 2020-05-23 22:56:34
+tags: Introduction
+top: 5
 ---
 欢迎来到西电航协研发部！
 
@@ -10,6 +13,8 @@ title: R&D Department of XDU Aero Association
 西电航协研发部GitHub组织地址：[XDAA](https://github.com/xdu-aero-association)
 
 ## 教育无人机
+
+<img src="images/Educational_UAV.png"/>
 
 ### 微型四轴PID版本
 
@@ -71,7 +76,7 @@ More info: [Server](https://hexo.io/docs/server.html)
 
 **路径规划**
 
-[MotionPlanner](https://github.com/xdu-aero-association/MotionPlanner)
+[planning-course](https://github.com/xdu-aero-association/planning-course)
 
 More info: [Server](https://hexo.io/docs/server.html)
 
@@ -98,3 +103,5 @@ More info: [Server](https://hexo.io/docs/server.html)
 [slambook](https://github.com/xdu-aero-association/slambook)
 
 More info: [Server](https://hexo.io/docs/server.html)
+
+emoji: :blush: 
